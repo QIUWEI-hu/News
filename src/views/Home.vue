@@ -6,8 +6,13 @@
 export default {};
 </script>
 <style lang="less" scoped>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .home {
-  width: 100px;
+  width: 99vw;
   height: 100px;
   margin: 0 auto;
   border: 1px solid #000;
